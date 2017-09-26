@@ -1,0 +1,20 @@
+{
+  "name": "wedding-cv",
+  "scripts": {
+  },
+  "env": {
+    "MONGODB_URI": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
